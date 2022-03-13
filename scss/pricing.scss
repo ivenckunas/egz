@@ -1,0 +1,81 @@
+.pricing {
+  width: 100%;
+  height: 883px;
+  background: #6696e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .pricing-title {
+    text-align: center;
+    h2 {
+      font-size: 44px;
+      font-weight: bold;
+      color: white;
+    }
+    p {
+      font-size: 14px;
+      color: white;
+      margin-bottom: 83px;
+      margin-top: 26px;
+    }
+  }
+  .pricing-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 1200px;
+    width: 100%;
+    .pricing-1,
+    .pricing-2,
+    .pricing-3 {
+      border-radius: 8px;
+      width: 343px;
+      background: white;
+      margin: 40px;
+      text-align: center;
+      transition: 0.3s;
+
+      &:hover {
+        transform: translateY(-10px);
+        cursor: url(../img/description-cursor-icon-with-shadow-32.png), auto;
+      }
+      h3 {
+        font-size: 20px;
+        padding: 14px;
+        font-weight: 400;
+        color: white;
+      }
+      p {
+        color: white;
+      }
+      p:first-of-type span {
+        font-size: 94px;
+      }
+      p:first-of-type {
+        font-size: 40px;
+      }
+      p:last-of-type {
+        font-size: 14px;
+        padding-bottom: 19px;
+        opacity: 51%;
+      }
+    }
+  }
+  li {
+    line-height: 40px;
+    list-style: none;
+    color: #86878b;
+  }
+  .pricing-top {
+    border-radius: 8px 8px 0 0;
+    background: transparent url("../img/card_price_u268.png");
+  }
+  .pricing-top:nth-last-of-type(odd) {
+    border-bottom: 6px solid #41d395;
+  }
+  .green {
+    background: #41d395;
+    color: white;
+  }
+}

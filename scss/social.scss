@@ -1,0 +1,33 @@
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  .social-text {
+    width: 40%;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .social-logo {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    img:hover {
+      cursor: url(../img/description-cursor-icon-with-shadow-32.png), auto;
+
+      opacity: 0.5;
+    }
+  }
+}

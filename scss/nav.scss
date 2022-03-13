@@ -1,0 +1,35 @@
+nav {
+  position: fixed;
+  z-index: 4;
+  background: #1c1c1c;
+  width: 100%;
+  .nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    .logo {
+      padding: 10px 0;
+      width: 120px;
+      height: 52px;
+    }
+  }
+  .nav-right {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      color: white;
+      opacity: 0.7;
+      text-decoration: none;
+      &:hover {
+        opacity: 1;
+        cursor: pointer, auto;
+      }
+    }
+  }
+}

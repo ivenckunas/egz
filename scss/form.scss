@@ -1,0 +1,103 @@
+.form-right {
+  font-family: montserrat;
+  height: 425px;
+  width: 360px;
+  background: white;
+  position: relative;
+  border-radius: 5px;
+  h2 {
+    text-align: center;
+    background: #f5f5f5;
+    line-height: 57px;
+    color: #333333;
+    border-radius: 5px;
+    font-size: 20px;
+    span {
+      color: orangered;
+    }
+  }
+  .formtop {
+    padding-left: 50px;
+    h3 {
+      color: #1c1c1c;
+      text-align: left;
+      font-size: 16px;
+      padding-top: 30px;
+      padding-bottom: 22px;
+    }
+    h4 {
+      color: #1c1c1c;
+    }
+  }
+  .input-top {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 0px;
+    .toptop {
+      line-height: 15px;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #d8d8d8;
+      letter-spacing: 0px;
+      color: #d8d8d8;
+      opacity: 0.4;
+    }
+  }
+}
+
+.radio-buttonstop div {
+  display: flex;
+  flex-direction: row;
+
+  label {
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+input:checked + label {
+  font-weight: 600;
+}
+
+.topform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h4 {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+  label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+}
+
+.getstarted-btn {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  background: #41d395;
+  line-height: 57px;
+  border-radius: 0px 0px 5px 5px;
+  border: none;
+
+  &:hover {
+    background: #249c6a;
+    cursor: url(../img/description-cursor-icon-with-shadow-32.png), auto;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
